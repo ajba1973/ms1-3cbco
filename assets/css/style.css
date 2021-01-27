@@ -185,6 +185,25 @@ body {
     border: 0;
 }
 
+/* Section central index */
+.why-us-section {
+    color: #05281d;
+    text-align: center;
+    padding: 3rem 1.5rem;
+}
+.your-way {
+    text-align: center;
+    padding-bottom: 15px;
+}
+.h1-ylw {
+    color: #ffc107;
+    font-weight: bold;
+}
+.short-bar {
+    width: 50%;
+    border: 1px solid #ffc107;
+}
+
 /*Beer Site*/
 .deals-area {
     background-color: #05281d;
