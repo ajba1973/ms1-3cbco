@@ -21,6 +21,8 @@ Like our beers ... That is the spirit that we want to convey with our website.
 
 ## Overview
 
+Our passion is our beers and we want to share it with everyone. The objective of 3 Calaveras Brew Co. (3CBCo) is to create a platform where the user can learn about our beers, our food, our brewery in Limerick and our services. We want a simple, dynamic and easy-to-use platform to attract the user to know us and enjoy our beers.
+
 --------
 
 ## Description
