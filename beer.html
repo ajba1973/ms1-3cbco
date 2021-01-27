@@ -59,7 +59,62 @@
     </nav>
     <!-- header navbar -->
 
+    <!--Beers Offers  Banner Section-->
+    <section class="beers-offers">
+        <h1>Our Beers for 2021</h1>
+    </section>
+    <!--Beers Offers Section-->
 
+    <!--Beers Offers Section-->
+    <section class="why-us-section">
+        <div class="d-none d-md-block">
+            <hr class="block-divider short-bar">
+            <h1>Welcome to 3CBCo's Online Shop </h1>
+            <p>
+                To see tasting notes and a food-pairing guide for each beer see on its card below.
+        
+                All beers can be purchased by the case of 24 330ml bottles and delivered directly to your door.
+                Prices are shown under each type of beer below.
+                You can order mixed cases via the Mixed Case of 24 Bottles option below. Please ensure none of the beers you order are those marked out of stock.
+
+            </p>
+
+            <p >
+                
+                Cost of packaging and delivery is €14 for a single case, €22 for 2 or 3 cases. 
+            </p>
+
+    
+
+            <p>
+                Please note that we can process orders through our online shop for delivery to the Republic of Ireland and Northern Ireland only.
+
+            You may also collect your order from the brewery at 
+
+            Unit 1358, Kilmurry Business Center, Castletroy, Co. Limerick, V94YCRR.
+
+            If you're interested in deliveries to mainland UK and other European countries, please email us.
+            </p>
+
+            <h3 >All our beers are vegan-friendly. </h3>
+        
+        </div>
+        <hr class="block-divider short-bar d-none d-md-block">
+        <div class="your-way">
+            <h1>Special Offer:<span class="h1-ylw"> 72 Eur per case</span></h1>
+            <p><i class="fas fa-beer"></i> All beers can be purchased by the case of 24 330ml bottles and delivered directly to your door. </p>
+            <p><i class="fas fa-beer"></i> Cost of packaging and delivery is €14 for a single case, €22 for 2 or 3 cases.</p>
+            <p><i class="fas fa-beer"></i> You can order mixed cases via the Mixed Case of 24 Bottles option.</p>
+            <p><i class="fas fa-beer"></i> If you're interested in deliveries to mainland UK and other European countries, please email us.</p>
+            
+            <button class="btn btn-lg btn--cta btn--red" data-toggle="modal" data-target="#signUpModal">Sign Up!</button>
+            
+            <hr class="clearfix w-100 d-md-none" />
+            <p class="text-muted mt-2"><small><mark>You must be over 18 to buy our beers.</mark></small></p>
+        </div>
+  
+        <hr class="short-bar" />
+    </section>
 
     <!-- Footer - code taken from Basic Footer in MDBootstrap and edited-->
     <footer class="page-footer font-small stylish-color-dark pt-4">
@@ -252,6 +307,7 @@
                 </div>
             </div>
         </div>
+        <!--Contact Us-->
 
         <!--Subscribe modal-->
         <div class="modal" tabindex="-1" role="dialog" id="signUpModal">
@@ -289,6 +345,90 @@
             </div>
         </div>
         <!--Subscribe modal-->
+
+        <!--Order modal-->
+        <div class="modal" tabindex="-1" role="dialog" id="ordermodal">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h4 class="modal-title">
+                            <i class="far fa-envelope"></i> Place your Order
+                        </h4>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <form>
+                        <div class="form-group">
+                        
+                        <label for="exampleFormControlSelect1"><img src="assets/images/beer.png" width="20" height="20" class="d-inline-block align-top" alt="beer"  />  What is your favourite beer?</label>
+                        <select class="form-control" id="exampleFormControlSelect1">
+                        
+                            <option>Devil's Helles</option>
+                            <option>Smoke & Dagger</option>
+                            <option>Blood Orange Wheat</option>
+                            <option>Shipping Out of Boston</option>
+                            <option>Copper Legend</option>
+                            <option>Red Tape</option>
+                            <option>Mixed Case of 24 Bottles</option>
+                        </select>
+                        </div>
+
+                        <div class="form-group">
+                        
+                            <label for="exampleFormControlSelect1"><img src="assets/images/beer-box.png" width="20" height="20" class="d-inline-block align-top" alt="beer-box"/> Quantity of case ?</label>
+                            <select class="form-control" id="exampleFormControlSelect1">
+                        
+                            <option>0</option>
+                            <option>1</option>
+                            <option>2</option>
+                            <option>3</option>
+                            <option>4</option>
+                            <option>5</option>
+                            <option>+5 Contact Us</option>
+                            </select>
+                            </div>
+
+                            <div class="form-group">
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
+                                <label class="form-check-label" for="flexCheckChecked">
+                                Mixed Case of 24 Bottles
+                                </label>
+                            </div>
+
+                            <textarea class="form-control" id="exampleFormControlTextarea2" rows="5"
+                            placeholder="Please indicate your preferred mix of beers in your case here."></textarea>
+
+
+                            </div>
+
+                            <div class="form-group small">
+                            <h6 class=" text-danger">Minimum Orders</h6>
+                            <p class="small">This product is only available as a minimum of 24 bottles.</p>
+
+                            <h6 class=" text-danger">Delivery
+                            </h6>
+
+                            <p class="small">Please note that we can process orders through our online shop for delivery to the Republic of Ireland and Northern Ireland only.
+
+                            You may also collect your order from the brewery.
+                            
+                            If you're interested in a delivery to mainland UK and other European countries, please email us. Please note that we can process orders through our online shop for delivery to the Republic of Ireland and Northern Ireland only.</p>
+
+                            </div>
+
+                            <button type="submit" class="btn btn-danger" data-dismiss="modal"><i class="fas fa-times-circle"></i>  Cancel</button>
+                            <button type="submit" class="btn btn-success">
+                                <i class="fas fa-check"></i> BUY
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Order modal-->
 
     <!--Copied from Bootstrap 4 https://getbootstrap.com/docs/4.5/getting-started/download/ for use of Modal forms-->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
