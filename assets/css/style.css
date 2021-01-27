@@ -165,3 +165,24 @@ body {
     border-color: #df4929;
     color: white;
 }
+
+
+/*Beer Site*/
+.deals-area {
+    background-color: #05281d;
+    padding-bottom: 50px;
+}
+
+.beers-offers {
+    background-image: url("../images/beers.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    height: 360px;
+    overflow: hidden;
+    padding-top: 160px;
+    padding-bottom: 50px;
+    color: #ffffff;
+    text-align: center;
+    font-weight: bold;
+}
