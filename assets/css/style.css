@@ -166,6 +166,24 @@ body {
     color: white;
 }
 
+/* Footer Styling */
+.footer-content {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #05281d;
+
+}
+.footer-contact {
+    color: black;
+}
+.top-button {
+    text-align: center;
+}
+.ftr-contact-btn {
+    margin-right: 0;
+    color: #ffffff;
+    background-color: #10a8b3;
+    border: 0;
+}
 
 /*Beer Site*/
 .deals-area {
