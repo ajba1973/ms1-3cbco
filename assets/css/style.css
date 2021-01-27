@@ -81,3 +81,87 @@ body {
     font-style: italic;
     color: #d0d0d0;
 }
+
+/*Navbar styling*/
+.navbar-brand {
+    padding-top: 0;
+    padding-bottom: 0;
+    font-size: 30px;
+    letter-spacing: 3px;
+}
+#nav-header {
+    background-color: #05281d;
+}
+.navbar .navbar-toggler {
+    border: 0;
+}
+.navbar-toggler {
+    margin: 0 auto;
+}
+
+.navbar-nav li {
+    margin: 0 25px;
+    padding-top: 25px;
+}
+.nav-link:hover {
+    text-decoration: underline;
+}
+.navbar-text {
+    font-weight: bold;
+    padding-right: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.phone-number {
+    color: white;
+    font-size: 130%;
+    font-weight: bold;
+    margin-left: 60px;
+}
+
+.contact-btn {
+    color: #ffffff;
+    background-color: #10a8b3;
+    border: 0;
+    border-radius: 5px;
+}
+
+/* Alert Section */
+.alert {
+    text-align: center;
+    letter-spacing: 1px;
+    top: 100px;
+    background-color: #ee1308;
+    color: #ffffff;
+    border: 0;
+    border-radius: 0;
+    width: 100%;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 20px;
+    padding: 6px;
+    margin: 0;
+    overflow: hidden;
+    white-space: nowrap;
+    height: 30px;
+    z-index: 1;
+    display: flex;
+    
+}
+
+/* buttons */
+.btn--red {
+    color: white;
+    background-color: #10a8b3;
+    border-color: #10a8b3;
+}
+
+.btn--red:hover,
+.btn--red:active,
+.btn--red:focus,
+.btn--red:active:focus {
+    background-color: #df4929;
+    border-color: #df4929;
+    color: white;
+}
