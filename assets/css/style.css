@@ -1,0 +1,83 @@
+body {
+    font-family: 'Kufam', cursive;
+    color:#05281d;
+    overflow-x: hidden;
+}
+
+/*AGEGATE styling*/
+.cta-button {
+    text-align: center;
+    color: #ffffff;
+    width: 500px;
+    padding: 15px;
+    background-color: rgba(224, 139, 11, 0.7);
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+}
+
+/*agegate-index  callout styling*/
+
+.callout-container {
+    height: 100vh;
+
+    background: url('../images/cañeros.jpg') no-repeat bottom right fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position: relative;
+}
+
+.opaque-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.block-divider--orange {
+    width: 75px;
+    height: 5px;
+    border: 0;
+    background-color: #05281d;
+}
+
+.content-container {
+    padding-top: 75px;
+    padding-bottom: 75px;
+}
+
+/* Jumbotron */
+/*agegate-index styling*/
+.jumbotron {
+    background-color: transparent;
+}
+
+.jumbotron h1 {
+    color: #05281d;
+    font-weight: bold;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    color: #ffffff;
+
+}
+
+.jumbotron .lead {
+    color:#ffffff;
+    margin: 25px 0;
+}
+
+.jumbotron small {
+    font-size: 60%;
+    font-style: italic;
+    color: #d0d0d0;
+}
