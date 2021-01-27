@@ -316,43 +316,93 @@
     </footer>
     <!-- Footer -->
 
-
-    <!--Subscribe modal-->
-    <div class="modal" tabindex="-1" role="dialog" id="signUpModal">
-        <div class="modal-dialog" role="document">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h5 class="modal-title"><i class="far fa-envelope"></i> Sign Up to 3CBCo!</h5>
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true">&times;</span>
-                    </button>
-                </div>
-                <div class="modal-body">
-                    <form>
-                        <div class="form-group">
-                            <label for="exampleInputEmail1">Email address</label>
-                            <input type="email" class="form-control" id="exampleInputEmail2"
-                                aria-describedby="emailHelp" placeholder="Enter email" required />
-                            <small id="emailHelp1" class="form-text text-muted">We'll never share your email with anyone
-                                else.</small>
-                        </div>
-                        <div class="form-group">
-                            <label for="password">Password</label>
-                            <input type="password" class="form-control" id="password" placeholder="Password" required />
-                        </div>
-                        <div class="form-group">
-                            <label for="repeatPassword">Repeat Password</label>
-                            <input type="password" class="form-control" id="repeatPassword"
-                                placeholder="Repeat Password" required />
-                        </div>
-                        <button type="submit" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                        <button type="submit" class="btn btn-primary">Submit</button>
-                    </form>
+    <!--Modal forms from Bootstrap4.5 and CI Modal Forms class-->
+        <!--Contact Us Modal Form-->
+        <div class="modal" tabindex="-1" role="dialog" id="contactmodal">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h4 class="modal-title">
+                            <i class="far fa-envelope"></i> Send Us Your Enquiry!
+                        </h4>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <form>
+                            <div class="form-group">
+                                <label for="exampleFormControlTextarea1"><i class="fas fa-signature"></i> Name</label>
+                                <textarea class="form-control" id="exampleFormControlTextarea1" rows="1"
+                                    placeholder="Full Name"></textarea>
+                            </div>
+                            <div class="form-group">
+                                <label for="exampleInputEmail1"><i class="fas fa-at"></i> Email</label>
+                                <input type="email" class="form-control" id="exampleInputEmail1"
+                                    aria-describedby="emailHelp" placeholder="Enter email" required />
+                                <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone
+                                    else.</small>
+                            </div>
+                            <div class="form-group">
+                                <label for="exampleFormControlTextarea1"><i class="fas fa-mobile"></i> Contact
+                                    Number</label>
+                                <textarea class="form-control" id="exampleFormControlTextarea0" rows="1"
+                                    placeholder="Contact Number"></textarea>
+                            </div>
+                            <div class="form-group">
+                                <label for="exampleFormControlTextarea1"><i class="fas fa-info-circle"></i> Enquiry
+                                    details:</label>
+                                <textarea class="form-control" id="exampleFormControlTextarea2" rows="5"
+                                    placeholder="Questions, comments? Shoot us a note and we’ll get back to you soon! Taproom reservation not accepted - FIRST COME, FIRST SERVED."></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                            <button type="submit" class="btn btn-primary">
+                                <i class="fas fa-envelope"></i> Send
+                            </button>
+                        </form>
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
 
+
+
+        <!--Subscribe modal-->
+        <div class="modal" tabindex="-1" role="dialog" id="signUpModal">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title"><i class="far fa-envelope"></i> Sign Up to 3CBCo!</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <form>
+                            <div class="form-group">
+                                <label for="exampleInputEmail1">Email address</label>
+                                <input type="email" class="form-control" id="exampleInputEmail2"
+                                    aria-describedby="emailHelp" placeholder="Enter email" required />
+                                <small id="emailHelp1" class="form-text text-muted">We'll never share your email with anyone
+                                    else.</small>
+                            </div>
+                            <div class="form-group">
+                                <label for="password">Password</label>
+                                <input type="password" class="form-control" id="password" placeholder="Password" required />
+                            </div>
+                            <div class="form-group">
+                                <label for="repeatPassword">Repeat Password</label>
+                                <input type="password" class="form-control" id="repeatPassword"
+                                    placeholder="Repeat Password" required />
+                            </div>
+                            <button type="submit" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                            <button type="submit" class="btn btn-primary">Submit</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    <!--Subscribe modal-->
 
     <!--Copied from Bootstrap 4 https://getbootstrap.com/docs/4.5/getting-started/download/ for use of Modal forms-->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
