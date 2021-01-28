@@ -402,6 +402,72 @@
     </div>
 <!--Subscribe modal-->
 
+<!--Book Tour modal-->
+    <div class="modal" tabindex="-1" role="dialog" id="bookmodal">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title">
+                        <i class="far fa-envelope"></i> Book Your Tour!
+                    </h4>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="form-group">
+                            <label for="exampleFormControlTextarea1"><i class="fas fa-signature"></i> Name</label>
+                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="1"
+                                placeholder="Full Name"></textarea>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="exampleInputEmail1"><i class="fas fa-at"></i> Email</label>
+                            <input type="email" class="form-control" id="exampleInputEmail1"
+                                aria-describedby="emailHelp" placeholder="Enter email" required />
+                            <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone
+                                else.</small>
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleFormControlTextarea1"><i class="fas fa-mobile"></i> Contact
+                                Number</label>
+                            <textarea class="form-control" id="exampleFormControlTextarea0" rows="1"
+                                placeholder="Contact Number"></textarea>
+                        </div>
+
+                        <div class="form-group">
+
+                            <label for="exampleFormControlSelect1"><i class="fas fa-user-friends"></i>How many people comes?</label>
+                            <select class="form-control" id="exampleFormControlSelect1">
+                                <option>1</option>
+                                <option>2</option>
+                                <option>3</option>
+                                <option>4</option>
+                                <option>5</option>
+                                <option>+5</option>
+                            </select>
+
+                    </div>
+
+
+
+
+                        <div class="form-group">
+                            <label for="exampleFormControlTextarea1"><i class="fas fa-info-circle"></i> Enquiry
+                                details:</label>
+                            <textarea class="form-control" id="exampleFormControlTextarea2" rows="5"
+                                placeholder="All Brewery tours are currently suspended due to Covid-19. We apologise for any inconvenience caused."></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                        <button type="submit" class="btn btn-primary">
+                            <i class="fas fa-check"></i> Book!
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
 
 
 <!--Copied from Bootstrap 4 https://getbootstrap.com/docs/4.5/getting-started/download/ for use of Modal forms-->
