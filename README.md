@@ -89,6 +89,13 @@ It is a craft brewery website that is intended to be accessible on all devices. 
 --------
 ## Deployment
 
+- Once a GIthub account was created, I opened a new repository by clicking the green button "new". To create this project, I used the Code Institute's student [template](https://github.com/Code-Institute-Org/gitpod-full-template).
+- Click on the green "gitpod" button where one is redirected to to [Gitpod](https://gitpod.io/)
+- Gitpod, a cloud-based version control software or IDE was used to write all code for this project.
+- It was then pushed or saved in the terminal to Github where it is stored in a [repository](https://github.com/ajba1973/ms1-3cbco/)
+- Under "Settings", I scrolled down to Github Pages and selected "Master Branch" under source, to where the page was automated.
+- Once this was selected, the project was pushed to Github pages and the URL is then displayed
+- To access the code, it can be run locally by either selecting "clone" which provides an URL one can use on their local machine or "download" which is where one can download the zip file on to their machine.
 
 --------
 ## Credits
