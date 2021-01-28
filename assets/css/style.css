@@ -291,3 +291,56 @@ body {
 }
 
 
+
+/* Media Screen Section*/
+@media screen and (max-width:400px) {
+    .why-us {
+        padding-left: 0;
+   }
+    .lead, p {
+        font-size: 1rem;
+        text-align: center;
+   }
+    .featurette-heading {
+        font-size: 1.5rem;
+        text-align: center;
+   }
+}
+@media screen and (max-width: 468px) {
+    .cta-button {
+        font-size: 75%;
+        top: 65%;
+        width: 230px;
+   }
+    .navbar-nav li {
+        margin-right: 0px;
+   }
+    .hero-section h3 {
+        font-size: 20px;
+   }
+    .navbar-brand {
+        font-size: 20px;
+   }
+}
+@media screen and (max-width: 768px ) {
+    .mybtn {
+        margin-right: 15px;
+   }
+}
+@media screen and (min-width:992px) {
+    .latest-offers {
+        margin-top: 60px;
+        padding-bottom: 0;
+        padding-top: 120px;
+   }
+}
+@media screen and (max-width: 1000px) {
+    .alert {
+        top: 60px;
+   }
+}
+@media screen and (max-width:1161px) {
+    .alert {
+        font-size: 12px;
+   }
+}
