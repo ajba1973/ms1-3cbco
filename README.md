@@ -76,6 +76,15 @@ It is a craft brewery website that is intended to be accessible on all devices. 
 
 #### Other:
 
+- [Code Institute Course Content](https://courses.codeinstitute.net/) - Primary source of learning code.
+- [ChromeDevTools](https://developers.google.com/web/tools/chrome-devtools) - Used frequently to detect any issues/bugs or layout differences.
+- [W3Schools](https://www.w3schools.com/) - used as a general resource for CSS and coding tips.
+- [StackOverFlow](https://stackoverflow.com/) - used as a general resource for layout tips or questions.
+- [AmIResponsive](http://ami.responsivedesign.is/) - Used to check how the layout of the website looks across different devices- found at the top of this "NEED TO BE UPDATED". 
+- [BrowserStack](https://www.browserstack.com/) - Used to test website layout on multiple devices.
+- [Google Mobile Friendly Test](https://search.google.com/test/mobile-friendly) - Used to test all pages on a mobile device
+- [Youtube](https://www.youtube.com/) - Used for help in adding a favicon.
+- [CSS Formatter](https://www.cleancss.com/css-beautify/) - Used to beautify CSS code.
 
 --------
 ## Testing
