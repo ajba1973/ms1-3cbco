@@ -104,4 +104,10 @@ It is a craft brewery website that is intended to be accessible on all devices. 
 --------
 ## Acknowledgements
 
+- I received inspiration for this project from my passion for the craft beer and the micro breweries. 
+- My Mentor, **Nishant Kumar**, for his guidance throughout this project.
+- Tutor Support, Cormac and the Slack Community for their endless support, anytime of the day or night
+- My wife Ana, my litle one Morgan and my family for their support and patience  :) !!!
+- At last for the other two "Calaveras", Cesar & Juan...
+
 --------
