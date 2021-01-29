@@ -116,7 +116,8 @@ It is a craft brewery website that is intended to be accessible on all devices. 
 --------
 ## Acknowledgements
 
-- I received inspiration for this project from my passion for the craft beer and the micro breweries. 
+- I received inspiration for this project from my passion for the craft beer and the micro breweries.
+- Give thanks to the above Breweries companies from the credits section. Special Metion to Jack's Abbey in USA. I miss Blood Orange Wheat. Drink Lageer!!!   
 - My Mentor, **Nishant Kumar**, for his guidance throughout this project.
 - Tutor Support, Cormac and the Slack Community for their endless support, anytime of the day or night
 - My wife Ana, my litle one Morgan and my family for their support and patience  :) !!!
