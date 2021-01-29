@@ -82,6 +82,11 @@ It is a craft brewery website that is intended to be accessible on all devices. 
 
 #### Validation
 
+HTML - [W3C](https://validator.w3.org/) - Markup Validation
+
+
+CSS - [W3C](https://jigsaw.w3.org/css-validator/) - CSS Validation
+
 --------
 ## Project Bugs and Solutions
 
