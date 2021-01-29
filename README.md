@@ -32,6 +32,8 @@ Our passion is our beers and we want to share it with everyone. The objective of
 
 It is a craft brewery website that is intended to be accessible on all devices. My aim in this project was create a simple, a positive user-experience and boost our brewery's image and expand our potential.
 
+![image](/assets/docs/amiresponsive_3CBCo_agegate.png)
+
 --------
 
 ## UX  
