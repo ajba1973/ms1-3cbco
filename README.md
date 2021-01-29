@@ -83,7 +83,7 @@ It is a craft brewery website that is intended to be accessible on all devices. 
 - [AmIResponsive](http://ami.responsivedesign.is/) - Used to check how the layout of the website looks across different devices- found at the top of this "NEED TO BE UPDATED". 
 - [BrowserStack](https://www.browserstack.com/) - Used to test website layout on multiple devices.
 - [Google Mobile Friendly Test](https://search.google.com/test/mobile-friendly) - Used to test all pages on a mobile device
-- [Youtube](https://www.youtube.com/) - Used for help in adding a favicon.
+- [Youtube](https://www.youtube.com/) - Used for help in adding carousel structure.
 - [CSS Formatter](https://www.cleancss.com/css-beautify/) - Used to beautify CSS code.
 
 --------
