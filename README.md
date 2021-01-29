@@ -1,4 +1,4 @@
-<!-- Update with screenshot of the index.html-->
+![image](/assets/docs/3CBCo_index.png)
 
 # Milestone Project 1 - 3 Calaveras Brew Co.
 
