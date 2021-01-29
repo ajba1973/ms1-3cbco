@@ -100,8 +100,18 @@ It is a craft brewery website that is intended to be accessible on all devices. 
 --------
 ## Credits
 
+- The text for sections of 3CBCo was copied from the next websites: 
+    [Jack's Abbey](https://jacksabby.com/) 
+    [Cierzo Brewing Co](https://cierzobrewing.com/en/) 
+    [Killarney Brewing Company](https://www.killarneybrewing.com/#tabs-story) 
+    [Mescan Brewery](https://www.mescanbrewery.com/) 
+    [Treaty City Brewing Co](https://treatycitybrewery.ie/) 
+    
+    and edited to fit with the 3CBCo site.
 
+--------
 ### Media
+
 - The photos used in this site were obtained from Pexels, Pixabay and Unsplash.
 
 --------
