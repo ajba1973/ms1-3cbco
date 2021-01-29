@@ -101,6 +101,9 @@ It is a craft brewery website that is intended to be accessible on all devices. 
 ## Credits
 
 
+### Media
+- The photos used in this site were obtained from Pexels, Pixabay and Unsplash.
+
 --------
 ## Acknowledgements
 
