@@ -89,6 +89,11 @@ It is a craft brewery website that is intended to be accessible on all devices. 
 --------
 ## Testing
 
+- Forms testing: to ensure the website was functioning as it should, I tested each of the forms on different devices and browsers. This was done by clicking the send button on the Contact Us, Sign Up, Book Now and Buy !!!  modal without any text in inputs to make sure it resulted with the desired response of 'Please fill out this field'.
+- Links (Internal & External): Each of the links when clicked have been checked so that the user is directed to the desired location. To better enhance UX, I made sure each link has either a colour change or underline when hovered (with exception of the navbar brand) and included a target attribute so that a new browser window is opened. 
+- Testing across various devices: I used BrowserStack for this, in addition to feedback from my friends and peers. The devices on which the website was tested are as follows:
+
+--------
 #### Validation
 
 HTML - [W3C](https://validator.w3.org/) - Markup Validation
