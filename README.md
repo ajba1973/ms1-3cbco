@@ -1,6 +1,9 @@
-
+<!-- Update with screenshot of the index.html-->
 
 # Milestone Project 1 - 3 Calaveras Brew Co.
+
+
+### View the live project [here.](https://ajba1973.github.io/ms1-3cbco/agegate.html)
 
 The goal of this project is to create a user-friendly based on our craft brewery. We want to convey the same passion with which we produce our beers as well as the experience that our clients have when they visit us.
 We try to be unique and different with the rest of our "competitors". As part of our success, we want to stay with simple and unique services.
