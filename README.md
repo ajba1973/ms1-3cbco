@@ -44,6 +44,14 @@ Our brewery website is aimed at the general public with the legal age for alcoho
 --------
 **Business Goals**
 
+- To gain an increase in website user activity, online enquiries and direct contact with us
+
+- To provide a professional, clear and easy to navigate website for any customer, be it
+first time user as well
+
+- Establish an online presence with the end result as appearing as one craft breweries that can sell beers directly to any costumer from Ireland, Uk or Europe.
+
+--------
 **User Stories**
 
 #### As a First Time User:
