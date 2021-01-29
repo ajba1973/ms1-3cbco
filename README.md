@@ -39,7 +39,9 @@ It is a craft brewery website that is intended to be accessible on all devices. 
 
 ## Strategy
 
+Our brewery website is aimed at the general public with the legal age for alcohol consumption, families are welcome ( for future  updates we serve meals , special menu for children). As per Covid restrictions our Tap room and the guided tour are close so we implented a shop online for our beers and provide a book system for our guided tours.
 
+--------
 **Business Goals**
 
 **User Stories**
