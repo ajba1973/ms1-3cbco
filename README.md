@@ -73,6 +73,8 @@ It is a craft brewery website that is intended to be accessible on all devices. 
 
 #### Version Control:
 
+- [Github](https://github.com/) - Used to store the code and use of Github Pages to deploy the website. 
+- [Gitpod](https://gitpod.io/) - Used as the primary version control IDE for development to further push and commit code to Gihub.
 
 #### Other:
 
