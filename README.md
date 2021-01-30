@@ -80,13 +80,21 @@ This website incorporates a MVP (Minimal Viable Product) method for te next reas
 --------
 ## Structure
 
-- The website meets the following three pillars be consistent, intuitive and easy to learn.
-    - Consistency:  interface elements offers subtle visual feedback to the user (on hovering, focusing and pressing buttons and fields) that is similar across
+The website meets the following three pillars be consistent, intuitive and easy to learn.
+- Consistency:  interface elements offers subtle visual feedback to the user (on hovering, focusing and pressing buttons and fields) that is similar across
 the application and helps the user to quickly learn the functionality.
-    - Intuitive:  the interface interacts with user actions according to user expectations.
+- Intuitive:  the interface interacts with user actions according to user expectations.
 
 --------
 ## Skeleton
+
+The website is divided into the four sections and although the wireframes do not exactly match my final project.  
+I added further enhancements by implementing further imagery, add the carousel feature on the tour page and creating modal Contact Us!, Sign up, Buy!! and Book Now forms instead the create another pages.
+
+- Legal Page:  agegate, as legal requirements to sell alcohol <!-- Balsamiq-->
+- Landing Page: Home Index <!-- Balsamiq-->
+- Our Beers:  Our beers  offer & sale beers <!-- Balsamiq-->
+- Tour: Book tours & gallere from brewery <!-- Balsamiq-->
 
 --------
 ## Surface
