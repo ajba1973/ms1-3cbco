@@ -63,7 +63,7 @@ first time user as well
 - to easily navigate throught the contents.
 - to find detailed information about the desired product.
 - to be able to contact with the businees.
- 
+
 
 #### As a Regular User: 
 
@@ -72,6 +72,14 @@ first time user as well
 
 --------
 ## Structure
+
+This website incorporates a MVP (Minimal Viable Product) method for te next reasons:
+
+- Creates a clear and practical website without overloading the user.
+- Explain to the user about the nature of the business.
+- Matches my skill level.
+- Include relevant and inspiring images and product offers.
+- Satisfies the general needs from the user and the owners of the business, contact information, products and forms, etc.
 
 --------
 ## Skeleton
