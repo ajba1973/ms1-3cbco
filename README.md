@@ -174,7 +174,7 @@ I added further enhancements by implementing further imagery, add the carousel f
 - It contains an animated image of the brewery and offers us to book a tour to the brewery with its corresponding CTA. From which we will fill out an application to book the tour.
 - A carousel of images of key elements of the craft brewery
 
-### Features Left to Implement
+## Features Left to Implement
 
 - More product: I would have liked to expand the list of services such as the tap room menu as well as a downloadable menu of food and beers. As well as the takeway option for limerick city.
 
