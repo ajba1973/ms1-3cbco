@@ -91,6 +91,7 @@ the application and helps the user to quickly learn the functionality.
 The website is divided into the four sections and although the wireframes do not exactly match my final project.  
 I added further enhancements by implementing further imagery, add the carousel feature on the tour page and creating modal Contact Us!, Sign up, Buy!! and Book Now forms instead the create another pages.
 
+### Wireframes
 - Legal Page:  agegate, as legal requirements to sell alcohol <!-- Balsamiq-->
 - Landing Page: Home Index <!-- Balsamiq-->
 - Our Beers:  Our beers  offer & sale beers <!-- Balsamiq-->
@@ -98,6 +99,26 @@ I added further enhancements by implementing further imagery, add the carousel f
 
 --------
 ## Surface
+
+### Colours
+
+- I wanted to use colors associated with the breweries and the raw materials we use (malt, hops and yeast) but also add our personal touch. Brown, dark green, gold and sky blue colors. In addition to using relevant images to start the user in weighing in having a beer.
+- The main color is a Faux-Dark Green, #05281d. [Faux-DarkGreen](http://www.2020colours.com/05281d)  I pick this color for the next attributes tranquility, personal growth, healing and the home. So for me the brewery I thinking as my second home.
+
+### Typography
+
+- I used Google Fonts to explore different fonts I could use with my website and decided on "Kufam" and "Cursive" as the back-up font. I chose this type of font because I wanted to customize our page with something different. But also that it served as a connection with the exotic.
+  This font is Arabic-Latin bilingual typeface that are based on 7th century inscriptions.
+- [Kufam](https://fonts.google.com/specimen/Kufam#standard-styles)
+
+### Icons
+
+- Font Awesome was the go-to for icons used and they can be seen across all pages such as the navbar-brand, list items, offers cards and social links.
+
+### Images
+
+- Each of the images was carefully selected to represent the scene and the desire to visit, to know, to learn and to enjoy a craft beer.
+- All images are sized and compressed for the best UX flow.
 
 
 --------
@@ -107,10 +128,21 @@ I added further enhancements by implementing further imagery, add the carousel f
 --------
 ## Technologies Used
 
+### Workspace
+
+- [Windows10](https://www.microsoft.com/en-ie/windows) as Operative system.
+- [Visual Studio Code](https://code.visualstudio.com/) as IDE.
+
 #### Languages:
 
+- [HTML](https://en.wikipedia.org/wiki/HTML)
+- [CSS](https://en.wikipedia.org/wiki/CSS)
 
 #### Libraries:
+
+  - [Bootstrap4](https://getbootstrap.com/) was used for its great responsivness and styling classes.
+  - [Font Awesome](https://fontawesome.com/) icons were used for aesthetic and [UX](#ux) improvements.
+  - [Google Fonts](https://fonts.google.com/) was use as the main font resource.
 
 
 #### Version Control:
@@ -118,13 +150,17 @@ I added further enhancements by implementing further imagery, add the carousel f
 - [Github](https://github.com/) - Used to store the code and use of Github Pages to deploy the website. 
 - [Gitpod](https://gitpod.io/) - Used as the primary version control IDE for development to further push and commit code to Gihub.
 
+### Wireframes: 
+
+- [Balsamiq](https://balsamiq.com/) for creating [wireframes](#wireframes).
+
 #### Other:
 
 - [Code Institute Course Content](https://courses.codeinstitute.net/) - Primary source of learning code.
 - [ChromeDevTools](https://developers.google.com/web/tools/chrome-devtools) - Used frequently to detect any issues/bugs or layout differences.
 - [W3Schools](https://www.w3schools.com/) - used as a general resource for CSS and coding tips.
 - [StackOverFlow](https://stackoverflow.com/) - used as a general resource for layout tips or questions.
-- [AmIResponsive](http://ami.responsivedesign.is/) - Used to check how the layout of the website looks across different devices- found at the top of this "NEED TO BE UPDATED". 
+- [AmIResponsive](http://ami.responsivedesign.is/) - Used to check how the layout of the website looks across different devices- found at the top of this [Description](#Description). 
 - [BrowserStack](https://www.browserstack.com/) - Used to test website layout on multiple devices.
 - [Google Mobile Friendly Test](https://search.google.com/test/mobile-friendly) - Used to test all pages on a mobile device
 - [Youtube](https://www.youtube.com/) - Used for help in adding carousel structure.
