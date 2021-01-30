@@ -8,6 +8,7 @@
 The goal of this project is to create a user-friendly based on our craft brewery. We want to convey the same passion with which we produce our beers as well as the experience that our clients have when they visit us.
 We try to be unique and different with the rest of our "competitors". As part of our success, we want to stay with simple and unique services.
 Like our beers ... That is the spirit that we want to convey with our website.
+3 Calaveras Brew Co **(3CBCo)** is a educaditional project made to serve as the first Milestone Project for the **Software Developer Diploma** programme of **Code Institute**.
 
 ## Table of Contents
 > - [Overview](#overview)
@@ -57,6 +58,12 @@ first time user as well
 **User Stories**
 
 #### As a First Time User:
+
+- to easily to understand the purpose of the page.
+- to easily navigate throught the contents.
+- to find detailed information about the desired product.
+- to be able to contact with the businees.
+ 
 
 #### As a Regular User: 
 
