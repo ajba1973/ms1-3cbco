@@ -124,6 +124,49 @@ I added further enhancements by implementing further imagery, add the carousel f
 --------
 ## Features
 
+## Agegate
+
+- Jumbotron and a call to action (CTA) is used to comply with the legality of promoting or selling alcohol, the age of the user to access this content must be answered.
+
+## Index
+
+### navbar
+
+- By creating a fixed top navigation bar, I wanted the user to be able to easily navigate through the website on whatever page they are on.
+- On a mobile phone or tablet, the navigation bar collapses to show the hamburger or toggle icon that expands when clicked to show the other pages.
+- The user can click on the brand on the navigation bar to take the user back to the home page.
+- Common element used in all the pages of the website.
+
+### Alert banner
+
+- As per the Covid restrictions the brewery is closed to the public.  Offer to delivery the beers to our members that the requirement to sign up.
+- This element is used as well on tour page. To remember all user the Covid restrictions impact in the nomal business opration.
+
+### Jumbotron 
+
+- In this section we promote the online sale of our craft beer. For this you must be a member to be able to access the sale.
+
+### Image plus text
+
+- A welcome section with an image and a paragraph summarizing the history of the brewery and the type of beer produced, as well as a link to access our beers. 
+
+### About us
+
+- it is divided into two groups:
+
+-- A few paragraphs that explain our business, our location and our crew. 
+-- A offer to book a guided tour in the brewery with a CTA (link to  tour webpage).
+
+### Footer
+
+- Common element through the website
+- The footer provides a small part about who the company is and where they are located, with relevant useful links and contact details available on each page.
+- Use of the back to top button to further enhance the user experience, social media links and contact details.
+
+
+
+
+
 
 --------
 ## Technologies Used
