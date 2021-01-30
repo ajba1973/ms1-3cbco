@@ -153,9 +153,8 @@ I added further enhancements by implementing further imagery, add the carousel f
 ### About us
 
 - it is divided into two groups:
-
--- A few paragraphs that explain our business, our location and our crew. 
--- A offer to book a guided tour in the brewery with a CTA (link to  tour webpage).
+* A few paragraphs that explain our business, our location and our crew. 
+* A offer to book a guided tour in the brewery with a CTA (link to  tour webpage).
 
 ### Footer
 
@@ -163,8 +162,21 @@ I added further enhancements by implementing further imagery, add the carousel f
 - The footer provides a small part about who the company is and where they are located, with relevant useful links and contact details available on each page.
 - Use of the back to top button to further enhance the user experience, social media links and contact details.
 
+## Our Beers
 
+- Common elements of Navbar, jumbotron, a marketing section with the offer and the footer.
+- Contains 6 cards of the beers produced, three core and three seasonal with their specifications, each with buttons to order.
+- I used a deck of cards (Bootstrap) instead, as it was more visually appealing and better formatted across devices.
 
+## Tour
+
+- Common Elements Navbar, Alert Bar, Marketing section with the specific offer for the tour and Footer.
+- It contains an animated image of the brewery and offers us to book a tour to the brewery with its corresponding CTA. From which we will fill out an application to book the tour.
+- A carousel of images of key elements of the craft brewery
+
+### Features Left to Implement
+
+- More product: I would have liked to expand the list of services such as the tap room menu as well as a downloadable menu of food and beers. As well as the takeway option for limerick city.
 
 
 
