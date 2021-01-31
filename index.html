@@ -351,9 +351,10 @@
     </div>
 
         <!--Subscribe modal-->
-        <div class="modal" tabindex="-1" role="dialog" id="signUpModal">
-            <div class="modal-dialog" role="document">
-                <div class="modal-content">
+         <div class="modal" tabindex="-1" role="dialog" id="signUpModal">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <form method="POST" action="https://formdump.codeinstitute.net/">
                     <div class="modal-header">
                         <h5 class="modal-title"><i class="far fa-envelope"></i> Sign Up to 3CBCo!</h5>
                         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
@@ -361,30 +362,33 @@
                         </button>
                     </div>
                     <div class="modal-body">
-                        <form>
-                            <div class="form-group">
-                                <label for="exampleInputEmail1">Email address</label>
-                                <input type="email" class="form-control" id="exampleInputEmail2"
-                                    aria-describedby="emailHelp" placeholder="Enter email" required />
-                                <small id="emailHelp1" class="form-text text-muted">We'll never share your email with anyone
-                                    else.</small>
-                            </div>
-                            <div class="form-group">
-                                <label for="password">Password</label>
-                                <input type="password" class="form-control" id="password" placeholder="Password" required />
-                            </div>
-                            <div class="form-group">
-                                <label for="repeatPassword">Repeat Password</label>
-                                <input type="password" class="form-control" id="repeatPassword"
-                                    placeholder="Repeat Password" required />
-                            </div>
-                            <button type="submit" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                            <button type="submit" class="btn btn-primary">Submit</button>
-                        </form>
+                        <div class="form-group">
+                            <label for="email2">Email address</label>
+                            <input type="email" name="email2" class="form-control" id="email2"
+                                aria-describedby="emailHelp" placeholder="Enter email" required />
+                            <small id="emailHelp1" class="form-text text-muted">We'll never share your email with anyone
+                                else.</small>
+                        </div>
+                        <div class="form-group">
+                            <label for="password">Password</label>
+                            <input type="password" name="password1" class="form-control" id="password"
+                                placeholder="Password" required />
+                        </div>
+                        <div class="form-group">
+                            <label for="repeatPassword">Repeat Password</label>
+                            <input type="password" name="password2" class="form-control" id="repeatPassword"
+                                placeholder="Repeat Password" required />
+                        </div>
+                        <button type="submit" class="btn btn-success">
+                            <i class="fas fa-check-circle"></i> Submit
+                        </button>
+                        <button type="submit" class="btn btn-danger" data-dismiss="modal"><i
+                                class="fas fa-times-circle"></i> Close</button>
                     </div>
-                </div>
+                </form>
             </div>
         </div>
+    </div>
     <!--Subscribe modal-->
 
     <!--Copied from Bootstrap 4 https://getbootstrap.com/docs/4.5/getting-started/download/ for use of Modal forms-->
