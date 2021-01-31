@@ -1,7 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    
+
     <!-- Required meta tags -->
     <meta name="description" content="3CBCo | 3 Calaveras Brewery Co | Limerick Ireland" />
     <meta name="author" content="Alejandro Bastor">
@@ -15,81 +16,86 @@
 
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css"
-    integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous" />
+        integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous" />
     <link rel="stylesheet" href="assets/css/style.css" />
     <link rel="icon" href="assets/images/calavera.ico">
 
     <title>3CBCo | Craft Beer Limerick Ireland</title>
 
 </head>
+
 <body>
 
     <!-- header navbar -->
     <nav id="nav-header" class="navbar fixed-top navbar-expand-lg navbar-dark ">
         <a class="navbar-brand" href="index.html">3CBCo</a>
-            <button class="navbar-toggler mr-2" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <button class="navbar-toggler mr-2" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav">
-                    <li class="nav-item active">
-                        <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="beer.html">Our Beers</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="tour.html">Book a Tour </a>
-                    </li>
-                    
-                    <li class="nav-item phone-number d-none d-lg-block my-2">
-                        <p><i class="fas fa-phone"></i> Call Us 061 616161</p>
-                    </li>
-                </ul>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item active">
+                    <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="beer.html">Our Beers</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="tour.html">Book a Tour </a>
+                </li>
+
+                <li class="nav-item phone-number d-none d-lg-block my-2">
+                    <p><i class="fas fa-phone"></i> Call Us 061 616161</p>
+                </li>
+            </ul>
+        </div>
+        <!--Contact button and modal form here- copied and edited from MDBootstrap-->
+        <div class="contact-btn">
+            <div class="d-none d-lg-block">
+                <button type="button" class="btn btn-light btn-lg my-2 my-sm-0 contact-btn " data-toggle="modal"
+                    data-target="#contactmodal" aria-label="contact">CONTACT US!
+                </button>
             </div>
-             <!--Contact button and modal form here- copied and edited from MDBootstrap-->
-            <div class="contact-btn">
-                <div class="d-none d-lg-block">
-                    <button type="button" class="btn btn-light btn-lg my-2 my-sm-0 contact-btn " data-toggle="modal"
-                        data-target="#contactmodal" aria-label="contact">CONTACT US!
-                    </button>
-                </div>
-            </div>
-            <!--Contact button and modal-->
+        </div>
+        <!--Contact button and modal-->
 
     </nav>
 
-
     <!--Alert Section-inspired to use from CI Whiskey Drop class-->
     <div class="alert alert-primary d-none d-lg-block d-xl-block" role="alert">
-        Our Taproom is currently CLOSED to the public due Covid 19 restrictions. Our Craft Beers will be delivered to your doorstep.
+        Our Taproom is currently CLOSED to the public due Covid 19 restrictions. Our Craft Beers will be delivered to
+        your doorstep.
         <a href="#" class="alert-link" data-toggle="modal" data-target="#signUpModal"> Sign Up!!! </a>
-        
+
     </div>
     <!--Alert Section-->
 
     <!--Jumbotron  CI Whiskey Drop class text from cierzo website rewrite-->
     <div class="container-fluid callout-container">
-    <!-- Callout -->
+        <!-- Callout -->
         <div class="opaque-overlay">&nbsp;</div>
-            <div class="row">
-                <div class="col-12">
-                    <section class="callout jumbotron text-center">
-                        <h1 class="jumbotron-header">3CBCo Beers delivered to your doorstep.</h1>
+        <div class="row">
+            <div class="col-12">
+                <section class="callout jumbotron text-center">
+                    <h1 class="jumbotron-header">3CBCo Beers delivered to your doorstep.</h1>
+                    <hr class="block-divider short-bar">
+                    <p class="lead">3CBCo. is the craft beer of Limerick. Real beer, without substitutes, noble and with
+                        soul. Our way of understanding this millenary drink, which is only perfect when it is made with
+                        passion, respecting each recipe, its times and its ingredients.
                         <hr class="block-divider short-bar">
-                        <p class="lead">3CBCo. is the craft beer of Limerick. Real beer, without substitutes, noble and with soul. Our way of understanding this millenary drink, which is only perfect when it is made with passion, respecting each recipe, its times and its ingredients.
-                        <hr class="block-divider short-bar">
-                        <button class="btn btn-lg btn--cta btn--red" data-toggle="modal" data-target="#signUpModal">Sign Up!</button>
-                        <p class="text-muted"><small>You must be over 18 to sign up to our service. Please, drink responsibly.</small></p>
-                    </section>
-                </div>
+                        <button class="btn btn-lg btn--cta btn--red" data-toggle="modal" data-target="#signUpModal">Sign
+                            Up!</button>
+                    <p class="text-muted"><small>You must be over 18 to sign up to our service. Please, drink
+                            responsibly.</small></p>
+                </section>
             </div>
-    <!-- /.callout -->
+        </div>
+        <!-- /.callout -->
     </div>
     <!--Jumbotron -->
 
     <!--Grid row  & image copied and edited from MDBootstrap-->
-    
     <section class="welcome mt-1">
         <!--Grid row-->
         <div class="row mt-5">
@@ -171,7 +177,7 @@
     <!--Why us section-->
 
     <!-- Footer - code taken from Basic Footer in MDBootstrap and edited-->
-     <footer class="page-footer font-small stylish-color-dark pt-4">
+    <footer class="page-footer font-small stylish-color-dark pt-4">
         <div class="container text-center text-md-left">
             <div class="row footer-row">
                 <div class="col-md-4 mx-auto">
@@ -298,8 +304,8 @@
     <!-- Footer -->
 
     <!--Modal forms from Bootstrap4.5 and CI Modal Forms class-->
-        <!--Contact Us Modal Form-->
-        <div class="modal" tabindex="-1" role="dialog" id="contactmodal">
+    <!--Contact Us Modal Form-->
+    <div class="modal" tabindex="-1" role="dialog" id="contactmodal">
         <div class="modal-dialog" role="document">
             <div class="modal-content">
                 <form method="POST" action="https://formdump.codeinstitute.net/">
@@ -350,8 +356,8 @@
         </div>
     </div>
 
-        <!--Subscribe modal-->
-         <div class="modal" tabindex="-1" role="dialog" id="signUpModal">
+    <!--Subscribe modal-->
+    <div class="modal" tabindex="-1" role="dialog" id="signUpModal">
         <div class="modal-dialog" role="document">
             <div class="modal-content">
                 <form method="POST" action="https://formdump.codeinstitute.net/">
@@ -393,18 +399,14 @@
 
     <!--Copied from Bootstrap 4 https://getbootstrap.com/docs/4.5/getting-started/download/ for use of Modal forms-->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
-    </script>
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+        </script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
-    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
-    </script>
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
+        </script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
-    </script>
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+        </script>
 
-
-
-
-    
 </body>
 </html>
