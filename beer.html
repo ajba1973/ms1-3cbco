@@ -59,7 +59,6 @@
         <h1>Our Beers for 2021</h1>
     </section>
     <!--Beers Offers Banner Section-->
-
     <!--Beers Offers Section-->
     <section class="why-us-section">
         <div class="d-none d-md-block">
@@ -102,7 +101,6 @@
         <hr class="short-bar d-none d-md-block" />
     </section>
     <!--Beers Offers Section-->
-
     <!--Deals Section cards MDBootstrap and edited text from Jack's Abbey & Mescan -->
     <section class="deals-area">
         <!--Core beers -->
@@ -416,9 +414,6 @@
 
     </section>
     <!--Deals Section -->
-
-
-
     <!-- Footer - code taken from Basic Footer in MDBootstrap and edited-->
     <footer class="page-footer font-small stylish-color-dark pt-4">
         <div class="container text-center text-md-left">
@@ -516,7 +511,8 @@
                 <h5 class="mb-1">Subscribe today!</h5>
             </li>
             <li class="list-inline-item">
-                <button class="btn btn-primary btn-rounded btn--cta btn--red" data-toggle="modal" data-target="#signUpModal">
+                <button class="btn btn-primary btn-rounded btn--cta btn--red" data-toggle="modal"
+                    data-target="#signUpModal">
                     Sign up!
                 </button>
             </li>
@@ -560,176 +556,181 @@
 
     </footer>
     <!-- Footer -->
-
     <!--Modal forms from Bootstrap4.5 and CI Modal Forms class-->
-
     <!--Contact Us Modal Form-->
     <div class="modal" tabindex="-1" role="dialog" id="contactmodal">
-    <div class="modal-dialog" role="document">
-      <div class="modal-content">
-        <form method="POST" action="https://formdump.codeinstitute.net/">
-          <div class="modal-header">
-            <h4 class="modal-title">
-              <i class="far fa-envelope"></i> Send Us Your Enquiry!
-            </h4>
-            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-              <span aria-hidden="true">&times;</span>
-            </button>
-          </div>
-          <div class="modal-body">
-            <div class="form-group">
-              <label for="fname"><i class="fas fa-signature"></i> Name</label>
-              <input type="text" name="fname" class="form-control" id="fname" placeholder="Your Name" required>
-              <!--
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <form method="POST" action="https://formdump.codeinstitute.net/">
+                    <div class="modal-header">
+                        <h4 class="modal-title">
+                            <i class="far fa-envelope"></i> Send Us Your Enquiry!
+                        </h4>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="form-group">
+                            <label for="fname"><i class="fas fa-signature"></i> Name</label>
+                            <input type="text" name="fname" class="form-control" id="fname" placeholder="Your Name"
+                                required>
+                            <!--
                         <textarea class="form-control" id="exampleFormControlTextarea1" rows="1"
                             placeholder="Full Name"></textarea> -->
+                        </div>
+                        <div class="form-group">
+                            <label for="email"><i class="fas fa-at"></i> Email</label>
+                            <input type="email" name="email" class="form-control" id="email"
+                                aria-describedby="emailHelp" placeholder="Enter email" required />
+                            <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone
+                                else.</small>
+                        </div>
+                        <div class="form-group">
+                            <label for="mobilephone"><i class="fas fa-mobile"></i> Contact
+                                Number</label>
+                            <input type="text" class="form-control" name="mobilephone" id="mobilephone"
+                                placeholder="Contact Number">
+                        </div>
+                        <div class="form-group">
+                            <label for="enquiry"><i class="fas fa-info-circle"></i> Enquiry
+                                details:</label>
+                            <textarea class="form-control" name="enquiry" id="enquiry" rows="5"
+                                placeholder="Questions, comments? Shoot us a note and we’ll get back to you soon! Taproom reservation not accepted - FIRST COME, FIRST SERVED."></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-success">
+                            <i class="fas fa-envelope"></i> Send
+                        </button>
+                        <button type="submit" class="btn btn-danger" data-dismiss="modal"><i
+                                class="fas fa-times-circle"></i>
+                            Close</button>
+                    </div>
+                </form>
             </div>
-            <div class="form-group">
-              <label for="email"><i class="fas fa-at"></i> Email</label>
-              <input type="email" name="email" class="form-control" id="email" aria-describedby="emailHelp"
-                placeholder="Enter email" required />
-              <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone
-                else.</small>
-            </div>
-            <div class="form-group">
-              <label for="mobilephone"><i class="fas fa-mobile"></i> Contact
-                Number</label>
-              <input type="text" class="form-control" name="mobilephone" id="mobilephone" placeholder="Contact Number">
-            </div>
-            <div class="form-group">
-              <label for="enquiry"><i class="fas fa-info-circle"></i> Enquiry
-                details:</label>
-              <textarea class="form-control" name="enquiry" id="enquiry" rows="5"
-                placeholder="Questions, comments? Shoot us a note and we’ll get back to you soon! Taproom reservation not accepted - FIRST COME, FIRST SERVED."></textarea>
-            </div>
-            <button type="submit" class="btn btn-success">
-              <i class="fas fa-envelope"></i> Send
-            </button>
-            <button type="submit" class="btn btn-danger" data-dismiss="modal"><i class="fas fa-times-circle"></i>
-              Close</button>
-          </div>
-        </form>
-      </div>
+        </div>
     </div>
-  </div>
     <!--Contact Us-->
 
     <!--Subscribe modal-->
-   <div class="modal" tabindex="-1" role="dialog" id="signUpModal">
-    <div class="modal-dialog" role="document">
-      <div class="modal-content">
-        <form method="POST" action="https://formdump.codeinstitute.net/">
-          <div class="modal-header">
-            <h5 class="modal-title"><i class="far fa-envelope"></i> Sign Up to 3CBCo!</h5>
-            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-              <span aria-hidden="true">&times;</span>
-            </button>
-          </div>
-          <div class="modal-body">
-            <div class="form-group">
-              <label for="email2">Email address</label>
-              <input type="email" name="email2" class="form-control" id="email2" aria-describedby="emailHelp"
-                placeholder="Enter email" required />
-              <small id="emailHelp1" class="form-text text-muted">We'll never share your email with anyone
-                else.</small>
+    <div class="modal" tabindex="-1" role="dialog" id="signUpModal">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <form method="POST" action="https://formdump.codeinstitute.net/">
+                    <div class="modal-header">
+                        <h5 class="modal-title"><i class="far fa-envelope"></i> Sign Up to 3CBCo!</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="form-group">
+                            <label for="email2">Email address</label>
+                            <input type="email" name="email2" class="form-control" id="email2"
+                                aria-describedby="emailHelp" placeholder="Enter email" required />
+                            <small id="emailHelp1" class="form-text text-muted">We'll never share your email with anyone
+                                else.</small>
+                        </div>
+                        <div class="form-group">
+                            <label for="password">Password</label>
+                            <input type="password" name="password1" class="form-control" id="password"
+                                placeholder="Password" required />
+                        </div>
+                        <div class="form-group">
+                            <label for="repeatPassword">Repeat Password</label>
+                            <input type="password" name="password2" class="form-control" id="repeatPassword"
+                                placeholder="Repeat Password" required />
+                        </div>
+                        <button type="submit" class="btn btn-success">
+                            <i class="fas fa-check-circle"></i> Submit
+                        </button>
+                        <button type="submit" class="btn btn-danger" data-dismiss="modal"><i
+                                class="fas fa-times-circle"></i>
+                            Close</button>
+                    </div>
+                </form>
             </div>
-            <div class="form-group">
-              <label for="password">Password</label>
-              <input type="password" name="password1" class="form-control" id="password" placeholder="Password"
-                required />
-            </div>
-            <div class="form-group">
-              <label for="repeatPassword">Repeat Password</label>
-              <input type="password" name="password2" class="form-control" id="repeatPassword"
-                placeholder="Repeat Password" required />
-            </div>
-            <button type="submit" class="btn btn-success">
-              <i class="fas fa-check-circle"></i> Submit
-            </button>
-            <button type="submit" class="btn btn-danger" data-dismiss="modal"><i class="fas fa-times-circle"></i>
-              Close</button>
-          </div>
-        </form>
-      </div>
+        </div>
     </div>
-  </div>
     <!--Subscribe modal-->
-
     <!--Order modal-->
     <div class="modal" tabindex="-1" role="dialog" id="ordermodal">
-    <div class="modal-dialog" role="document">
-      <div class="modal-content">
-        <form method="POST" action="https://formdump.codeinstitute.net/">
-          <div class="modal-header">
-            <h4 class="modal-title">
-              <i class="far fa-envelope"></i> Place your Order
-            </h4>
-            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-              <span aria-hidden="true">&times;</span>
-            </button>
-          </div>
-          <div class="modal-body">
-            <div class="form-group">
-              <label for="beer"><img src="assets/images/beer.png" width="20" height="20"
-                  class="d-inline-block align-top" alt="beer" /> What is your favourite beer?</label>
-              <select class="form-control" name="beer" id="beer">
-                <option>Devil's Helles</option>
-                <option>Smoke & Dagger</option>
-                <option>Blood Orange Wheat</option>
-                <option>Shipping Out of Boston</option>
-                <option>Copper Legend</option>
-                <option>Red Tape</option>
-                <option>Mixed Case of 24 Bottles</option>
-              </select>
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <form method="POST" action="https://formdump.codeinstitute.net/">
+                    <div class="modal-header">
+                        <h4 class="modal-title">
+                            <i class="far fa-envelope"></i> Place your Order
+                        </h4>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="form-group">
+                            <label for="beer"><img src="assets/images/beer.png" width="20" height="20"
+                                    class="d-inline-block align-top" alt="beer" /> What is your favourite beer?</label>
+                            <select class="form-control" name="beer" id="beer">
+                                <option>Devil's Helles</option>
+                                <option>Smoke & Dagger</option>
+                                <option>Blood Orange Wheat</option>
+                                <option>Shipping Out of Boston</option>
+                                <option>Copper Legend</option>
+                                <option>Red Tape</option>
+                                <option>Mixed Case of 24 Bottles</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="case"><img src="assets/images/beer-box.png" width="20" height="20"
+                                    class="d-inline-block align-top" alt="beer-box" /> Quantity of case ?</label>
+                            <select class="form-control" name="case" id="case">
+                                <option>0</option>
+                                <option>1</option>
+                                <option>2</option>
+                                <option>3</option>
+                                <option>4</option>
+                                <option>5</option>
+                                <option>+5 Contact Us</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <div class="form-check">
+                                <input class="form-check-input" name="24 mixed case beer" type="checkbox" value=""
+                                    id="casebeer">
+                                <label class="form-check-label" for="casebeer">
+                                    Mixed Case of 24 Bottles
+                                </label>
+                            </div>
+                            <textarea class="form-control" name="how to fill the case" id="fillcasebeer" rows="5"
+                                placeholder="Please indicate your preferred mix of beers in your case here."></textarea>
+                        </div>
+                        <div class="form-group small">
+                            <h6 class=" text-danger">Minimum Orders</h6>
+                            <p class="small">This product is only available as a minimum of 24 bottles.</p>
+                            <h6 class=" text-danger">Delivery
+                            </h6>
+                            <p class="small">Please note that we can process orders through our online shop for delivery
+                                to the
+                                Republic of Ireland and Northern Ireland only.
+                                You may also collect your order from the brewery.
+                                If you're interested in a delivery to mainland UK and other European countries, please
+                                email us at
+                                sales@3cbco.com .
+                                Please note that we can process orders through our online shop for delivery to the
+                                Republic of Ireland
+                                and Northern Ireland only.</p>
+                        </div>
+                        <button type="submit" class="btn btn-success">
+                            <i class="fas fa-check"></i> BUY
+                        </button>
+                        <button type="submit" class="btn btn-danger" data-dismiss="modal"><i
+                                class="fas fa-times-circle"></i>
+                            Cancel</button>
+                    </div>
+                </form>
             </div>
-            <div class="form-group">
-              <label for="case"><img src="assets/images/beer-box.png" width="20" height="20"
-                  class="d-inline-block align-top" alt="beer-box" /> Quantity of case ?</label>
-              <select class="form-control" name="case" id="case">
-                <option>0</option>
-                <option>1</option>
-                <option>2</option>
-                <option>3</option>
-                <option>4</option>
-                <option>5</option>
-                <option>+5 Contact Us</option>
-              </select>
-            </div>
-            <div class="form-group">
-              <div class="form-check">
-                <input class="form-check-input" name="24 mixed case beer" type="checkbox" value="" id="casebeer">
-                <label class="form-check-label" for="casebeer">
-                  Mixed Case of 24 Bottles
-                </label>
-              </div>
-              <textarea class="form-control" name="how to fill the case" id="fillcasebeer" rows="5"
-                placeholder="Please indicate your preferred mix of beers in your case here."></textarea>
-            </div>
-            <div class="form-group small">
-              <h6 class=" text-danger">Minimum Orders</h6>
-              <p class="small">This product is only available as a minimum of 24 bottles.</p>
-              <h6 class=" text-danger">Delivery
-              </h6>
-              <p class="small">Please note that we can process orders through our online shop for delivery to the
-                Republic of Ireland and Northern Ireland only.
-                You may also collect your order from the brewery.
-                If you're interested in a delivery to mainland UK and other European countries, please email us at
-                sales@3cbco.com .
-                Please note that we can process orders through our online shop for delivery to the Republic of Ireland
-                and Northern Ireland only.</p>
-            </div>
-            <button type="submit" class="btn btn-success">
-              <i class="fas fa-check"></i> BUY
-            </button>
-            <button type="submit" class="btn btn-danger" data-dismiss="modal"><i class="fas fa-times-circle"></i>
-              Cancel</button>
-          </div>
-        </form>
-      </div>
+        </div>
     </div>
-  </div>
     <!--Order modal-->
-
     <!--Copied from Bootstrap 4 https://getbootstrap.com/docs/4.5/getting-started/download/ for use of Modal forms-->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
         integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
