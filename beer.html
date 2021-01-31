@@ -565,51 +565,53 @@
 
     <!--Contact Us Modal Form-->
     <div class="modal" tabindex="-1" role="dialog" id="contactmodal">
-        <div class="modal-dialog" role="document">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h4 class="modal-title">
-                        <i class="far fa-envelope"></i> Send Us Your Enquiry!
-                    </h4>
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true">&times;</span>
-                    </button>
-                </div>
-                <div class="modal-body">
-                    <form>
-                        <div class="form-group">
-                            <label for="exampleFormControlTextarea1"><i class="fas fa-signature"></i> Name</label>
-                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="1"
-                                placeholder="Full Name"></textarea>
-                        </div>
-                        <div class="form-group">
-                            <label for="exampleInputEmail1"><i class="fas fa-at"></i> Email</label>
-                            <input type="email" class="form-control" id="exampleInputEmail1"
-                                aria-describedby="emailHelp" placeholder="Enter email" required />
-                            <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone
-                                else.</small>
-                        </div>
-                        <div class="form-group">
-                            <label for="exampleFormControlTextarea1"><i class="fas fa-mobile"></i> Contact
-                                Number</label>
-                            <textarea class="form-control" id="exampleFormControlTextarea0" rows="1"
-                                placeholder="Contact Number"></textarea>
-                        </div>
-                        <div class="form-group">
-                            <label for="exampleFormControlTextarea1"><i class="fas fa-info-circle"></i> Enquiry
-                                details:</label>
-                            <textarea class="form-control" id="exampleFormControlTextarea2" rows="5"
-                                placeholder="Questions, comments? Shoot us a note and we’ll get back to you soon! Taproom reservation not accepted - FIRST COME, FIRST SERVED."></textarea>
-                        </div>
-                        <button type="submit" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                        <button type="submit" class="btn btn-primary">
-                            <i class="fas fa-envelope"></i> Send
-                        </button>
-                    </form>
-                </div>
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <form method="POST" action="https://formdump.codeinstitute.net/">
+          <div class="modal-header">
+            <h4 class="modal-title">
+              <i class="far fa-envelope"></i> Send Us Your Enquiry!
+            </h4>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <div class="form-group">
+              <label for="fname"><i class="fas fa-signature"></i> Name</label>
+              <input type="text" name="fname" class="form-control" id="fname" placeholder="Your Name" required>
+              <!--
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="1"
+                            placeholder="Full Name"></textarea> -->
             </div>
-        </div>
+            <div class="form-group">
+              <label for="email"><i class="fas fa-at"></i> Email</label>
+              <input type="email" name="email" class="form-control" id="email" aria-describedby="emailHelp"
+                placeholder="Enter email" required />
+              <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone
+                else.</small>
+            </div>
+            <div class="form-group">
+              <label for="mobilephone"><i class="fas fa-mobile"></i> Contact
+                Number</label>
+              <input type="text" class="form-control" name="mobilephone" id="mobilephone" placeholder="Contact Number">
+            </div>
+            <div class="form-group">
+              <label for="enquiry"><i class="fas fa-info-circle"></i> Enquiry
+                details:</label>
+              <textarea class="form-control" name="enquiry" id="enquiry" rows="5"
+                placeholder="Questions, comments? Shoot us a note and we’ll get back to you soon! Taproom reservation not accepted - FIRST COME, FIRST SERVED."></textarea>
+            </div>
+            <button type="submit" class="btn btn-success">
+              <i class="fas fa-envelope"></i> Send
+            </button>
+            <button type="submit" class="btn btn-danger" data-dismiss="modal"><i class="fas fa-times-circle"></i>
+              Close</button>
+          </div>
+        </form>
+      </div>
     </div>
+  </div>
     <!--Contact Us-->
 
     <!--Subscribe modal-->
