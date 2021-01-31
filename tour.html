@@ -320,130 +320,90 @@
 
  <!--Modal forms from Bootstrap4.5 and CI Modal Forms class-->
 
-<!--Contact modal-->
+ <!--Contact modal-->
     <div class="modal" tabindex="-1" role="dialog" id="contactmodal">
         <div class="modal-dialog" role="document">
             <div class="modal-content">
-                <div class="modal-header">
-                    <h4 class="modal-title">
-                        <i class="far fa-envelope"></i> Send Us Your Enquiry!
-                    </h4>
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true">&times;</span>
-                    </button>
-                </div>
-                <div class="modal-body">
-                    <form>
+                <form method="POST" action="https://formdump.codeinstitute.net/">
+                    <div class="modal-header">
+                        <h4 class="modal-title">
+                            <i class="far fa-envelope"></i> Send Us Your Enquiry!
+                        </h4>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
                         <div class="form-group">
-                            <label for="exampleFormControlTextarea1"><i class="fas fa-signature"></i> Name</label>
-                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="1"
-                                placeholder="Full Name"></textarea>
+                            <label for="fname"><i class="fas fa-signature"></i> Name</label>
+                            <input type="text" name="fname" class="form-control" id="fname" placeholder="Your Name"
+                                required>
                         </div>
                         <div class="form-group">
-                            <label for="exampleInputEmail1"><i class="fas fa-at"></i> Email</label>
-                            <input type="email" class="form-control" id="exampleInputEmail1"
+                            <label for="email"><i class="fas fa-at"></i> Email</label>
+                            <input type="email" name="email" class="form-control" id="email"
                                 aria-describedby="emailHelp" placeholder="Enter email" required />
                             <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone
                                 else.</small>
                         </div>
                         <div class="form-group">
-                            <label for="exampleFormControlTextarea1"><i class="fas fa-mobile"></i> Contact
+                            <label for="mobilephone"><i class="fas fa-mobile"></i> Contact
                                 Number</label>
-                            <textarea class="form-control" id="exampleFormControlTextarea0" rows="1"
-                                placeholder="Contact Number"></textarea>
+                            <input type="text" class="form-control" name="mobilephone" id="mobilephone"
+                                placeholder="Contact Number">
                         </div>
                         <div class="form-group">
-                            <label for="exampleFormControlTextarea1"><i class="fas fa-info-circle"></i> Enquiry
+                            <label for="enquiry"><i class="fas fa-info-circle"></i> Enquiry
                                 details:</label>
-                            <textarea class="form-control" id="exampleFormControlTextarea2" rows="5"
+                            <textarea class="form-control" name="enquiry" id="enquiry" rows="5"
                                 placeholder="Questions, comments? Shoot us a note and we’ll get back to you soon! Taproom reservation not accepted - FIRST COME, FIRST SERVED."></textarea>
                         </div>
-                        <button type="submit" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                        <button type="submit" class="btn btn-primary">
+                        <button type="submit" class="btn btn-success">
                             <i class="fas fa-envelope"></i> Send
                         </button>
-                    </form>
-                </div>
+                        <button type="submit" class="btn btn-danger" data-dismiss="modal"><i
+                                class="fas fa-times-circle"></i> Close</button>
+                    </div>
+                </form>
             </div>
         </div>
     </div>
-<!--Contact modal-->
-
-<!--Subscribe modal-->
-    <div class="modal" tabindex="-1" role="dialog" id="signUpModal">
-        <div class="modal-dialog" role="document">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h5 class="modal-title"><i class="far fa-envelope"></i> Sign Up to 3CBCo!</h5>
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true">&times;</span>
-                    </button>
-                </div>
-                <div class="modal-body">
-                    <form>
-                        <div class="form-group">
-                            <label for="exampleInputEmail1">Email address</label>
-                            <input type="email" class="form-control" id="exampleInputEmail2"
-                                aria-describedby="emailHelp" placeholder="Enter email" required />
-                            <small id="emailHelp1" class="form-text text-muted">We'll never share your email with anyone
-                                else.</small>
-                        </div>
-                        <div class="form-group">
-                            <label for="password">Password</label>
-                            <input type="password" class="form-control" id="password" placeholder="Password" required />
-                        </div>
-                        <div class="form-group">
-                            <label for="repeatPassword">Repeat Password</label>
-                            <input type="password" class="form-control" id="repeatPassword"
-                                placeholder="Repeat Password" required />
-                        </div>
-                        <button type="submit" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                        <button type="submit" class="btn btn-primary">Submit</button>
-                    </form>
-                </div>
-            </div>
-        </div>
-    </div>
-<!--Subscribe modal-->
-
-<!--Book Tour modal-->
+    <!--Book Tour modal-->
     <div class="modal" tabindex="-1" role="dialog" id="bookmodal">
         <div class="modal-dialog" role="document">
             <div class="modal-content">
-                <div class="modal-header">
-                    <h4 class="modal-title">
-                        <i class="far fa-envelope"></i> Book Your Tour!
-                    </h4>
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true">&times;</span>
-                    </button>
-                </div>
-                <div class="modal-body">
-                    <form>
+                <form method="POST" action="https://formdump.codeinstitute.net/">
+                    <div class="modal-header">
+                        <h4 class="modal-title">
+                            <i class="far fa-envelope"></i> Book Your Tour!
+                        </h4>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
                         <div class="form-group">
-                            <label for="exampleFormControlTextarea1"><i class="fas fa-signature"></i> Name</label>
-                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="1"
-                                placeholder="Full Name"></textarea>
+                            <label for="fnameBook"><i class="fas fa-signature"></i> Name</label>
+                            <input type="text" name="fnameBook" class="form-control" id="fnameBook"
+                                placeholder="Your Name" required>
                         </div>
-
                         <div class="form-group">
-                            <label for="exampleInputEmail1"><i class="fas fa-at"></i> Email</label>
-                            <input type="email" class="form-control" id="exampleInputEmail1"
-                                aria-describedby="emailHelp" placeholder="Enter email" required />
-                            <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone
+                            <label for="emailBook"><i class="fas fa-at"></i> Email</label>
+                            <input type="email" name="email" class="form-control" id="emailBook"
+                                aria-describedby="emailBook" placeholder="Enter email" required />
+                            <small id="emailb" class="form-text text-muted">We'll never share your email with anyone
                                 else.</small>
                         </div>
                         <div class="form-group">
-                            <label for="exampleFormControlTextarea1"><i class="fas fa-mobile"></i> Contact
+                            <label for="mobile"><i class="fas fa-mobile"></i> Contact
                                 Number</label>
-                            <textarea class="form-control" id="exampleFormControlTextarea0" rows="1"
-                                placeholder="Contact Number"></textarea>
+                            <input type="text" class="form-control" name="mobilephone" id="mobile"
+                                placeholder="Contact Number" required>
                         </div>
-
                         <div class="form-group">
-
-                            <label for="exampleFormControlSelect1"><i class="fas fa-user-friends"></i>How many people comes?</label>
-                            <select class="form-control" id="exampleFormControlSelect1">
+                            <label for="people"><i class="fas fa-user-friends"></i>How many people
+                                comes?</label>
+                            <select class="form-control" id="people">
                                 <option>1</option>
                                 <option>2</option>
                                 <option>3</option>
@@ -451,28 +411,81 @@
                                 <option>5</option>
                                 <option>+5</option>
                             </select>
-
-                    </div>
-
-
-
-
+                        </div>
                         <div class="form-group">
-                            <label for="exampleFormControlTextarea1"><i class="fas fa-info-circle"></i> Enquiry
+                            <label for="date"><i class="far fa-calendar"></i> Date</label>
+                            <div class="col-md-10">
+                                <input type="date" name="date" class="form-control" id="date" min="2021-01-11"
+                                    max="2021-03-30" required>
+                            </div>
+                        </div>
+                        <div class="form-group ">
+                            <label for="time"><i class="far fa-clock"></i> Time</label>
+                            <div class="col-md-10">
+                                <input type="time" name="time" class="form-control" id="time" min="16:00" max="22:00"
+                                    required>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="textarea1"><i class="fas fa-info-circle"></i> Enquiry
                                 details:</label>
-                            <textarea class="form-control" id="exampleFormControlTextarea2" rows="5"
+                            <textarea class="form-control" id="textarea1" rows="5"
                                 placeholder="All Brewery tours are currently suspended due to Covid-19. We apologise for any inconvenience caused."></textarea>
                         </div>
-                        <button type="submit" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                        <span class="d-inline-block" data-toggle="popover" data-content="COVID19 Restriccions">
+                            <button class="btn btn-success" style="pointer-events: none;" type="button" disabled><i
+                                    class="fas fa-check-circle"></i> Book!</button>
+                        </span>
+                        <button type="submit" class="btn btn-danger" data-dismiss="modal"><i
+                                class="fas fa-times-circle"></i> Cancel</button>
+                        <!--
                         <button type="submit" class="btn btn-primary">
                             <i class="fas fa-check"></i> Book!
-                        </button>
-                    </form>
-                </div>
+                        </button>-->
+                    </div>
+                </form>
             </div>
         </div>
     </div>
-
+    <!--Subscribe modal-->
+    <div class="modal" tabindex="-1" role="dialog" id="signUpModal">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <form method="POST" action="https://formdump.codeinstitute.net/">
+                    <div class="modal-header">
+                        <h5 class="modal-title"><i class="far fa-envelope"></i> Sign Up to 3CBCo!</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="form-group">
+                            <label for="email2">Email address</label>
+                            <input type="email" name="email2" class="form-control" id="email2"
+                                aria-describedby="emailHelp" placeholder="Enter email" required />
+                            <small id="emailHelp1" class="form-text text-muted">We'll never share your email with anyone
+                                else.</small>
+                        </div>
+                        <div class="form-group">
+                            <label for="password">Password</label>
+                            <input type="password" name="password1" class="form-control" id="password"
+                                placeholder="Password" required />
+                        </div>
+                        <div class="form-group">
+                            <label for="repeatPassword">Repeat Password</label>
+                            <input type="password" name="password2" class="form-control" id="repeatPassword"
+                                placeholder="Repeat Password" required />
+                        </div>
+                        <button type="submit" class="btn btn-success">
+                            <i class="fas fa-check-circle"></i> Submit
+                        </button>
+                        <button type="submit" class="btn btn-danger" data-dismiss="modal"><i
+                                class="fas fa-times-circle"></i> Close</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
 
 <!--Copied from Bootstrap 4 https://getbootstrap.com/docs/4.5/getting-started/download/ for use of Modal forms-->
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
