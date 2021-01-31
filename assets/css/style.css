@@ -364,3 +364,10 @@ body {
         padding: .375rem .75rem;
     }
   }
+
+  /*, .carousel-indicators 
+.carousel-control-next,
+.carousel-control-prev  {
+    filter: invert(100%);
+}
+*/
