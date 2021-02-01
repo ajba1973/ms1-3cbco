@@ -67,6 +67,10 @@ first time user as well
 
 #### As a Regular User: 
 
+- the quality of the beers and the treatment they provide.
+- "Also made me very thirsty !!"
+- As a regular user, I want to see if their product has expanded
+
 --------
 ## Scope
 
@@ -122,95 +126,70 @@ I added further enhancements by implementing further imagery, add the carousel f
 
 
 --------
-## Features
+## Features 
 
-## Agegate
-
+### Agegate
 - Jumbotron and a call to action (CTA) is used to comply with the legality of promoting or selling alcohol, the age of the user to access this content must be answered.
 
-## Index
-
-### navbar
-
+### Index
+#### navbar
 - By creating a fixed top navigation bar, I wanted the user to be able to easily navigate through the website on whatever page they are on.
 - On a mobile phone or tablet, the navigation bar collapses to show the hamburger or toggle icon that expands when clicked to show the other pages.
 - The user can click on the brand on the navigation bar to take the user back to the home page.
 - Common element used in all the pages of the website.
-
-### Alert banner
-
+#### Alert banner
 - As per the Covid restrictions the brewery is closed to the public.  Offer to delivery the beers to our members that the requirement to sign up.
 - This element is used as well on tour page. To remember all user the Covid restrictions impact in the nomal business opration.
-
-### Jumbotron 
-
+#### Jumbotron 
 - In this section we promote the online sale of our craft beer. For this you must be a member to be able to access the sale.
-
-### Image plus text
-
+#### Image plus text
 - A welcome section with an image and a paragraph summarizing the history of the brewery and the type of beer produced, as well as a link to access our beers. 
-
-### About us
-
+#### About us
 - it is divided into two groups:
 * A few paragraphs that explain our business, our location and our crew. 
 * A offer to book a guided tour in the brewery with a CTA (link to  tour webpage).
-
-### Footer
-
+#### Footer
 - Common element through the website
 - The footer provides a small part about who the company is and where they are located, with relevant useful links and contact details available on each page.
 - Use of the back to top button to further enhance the user experience, social media links and contact details.
 
-## Our Beers
-
+### Our Beers
 - Common elements of Navbar, jumbotron, a marketing section with the offer and the footer.
 - Contains 6 cards of the beers produced, three core and three seasonal with their specifications, each with buttons to order.
 - I used a deck of cards (Bootstrap) instead, as it was more visually appealing and better formatted across devices.
-
-## Tour
-
+### Tour
 - Common Elements Navbar, Alert Bar, Marketing section with the specific offer for the tour and Footer.
 - It contains an animated image of the brewery and offers us to book a tour to the brewery with its corresponding CTA. From which we will fill out an application to book the tour.
 - A carousel of images of key elements of the craft brewery
 
 ## Features Left to Implement
-
 - More product: I would have liked to expand the list of services such as the tap room menu as well as a downloadable menu of food and beers. As well as the takeway option for limerick city.
-
-
 
 --------
 ## Technologies Used
 
-### Workspace
-
+#### Workspace
 - [Windows10](https://www.microsoft.com/en-ie/windows) as Operative system.
 - [Visual Studio Code](https://code.visualstudio.com/) as IDE.
 
 #### Languages:
-
 - [HTML](https://en.wikipedia.org/wiki/HTML)
 - [CSS](https://en.wikipedia.org/wiki/CSS)
 
 #### Libraries:
-
-  - [Bootstrap4](https://getbootstrap.com/) was used for its great responsivness and styling classes.
-  - [Font Awesome](https://fontawesome.com/) icons were used for aesthetic and [UX](#ux) improvements.
-  - [Google Fonts](https://fonts.google.com/) was use as the main font resource.
+- [Bootstrap4](https://getbootstrap.com/) was used for its great responsivness and styling classes.
+- [Font Awesome](https://fontawesome.com/) icons were used for aesthetic and [UX](#ux) improvements.
+- [Google Fonts](https://fonts.google.com/) was use as the main font resource.
 
 
 #### Version Control:
-
 - [Github](https://github.com/) - Used to store the code and use of Github Pages to deploy the website. 
 - [Gitpod](https://gitpod.io/) - Used as the primary version control IDE for development to further push and commit code to Gihub.
 
-### Wireframes: 
-
+#### Wireframes: 
 - [Balsamiq](https://balsamiq.com/) for creating [wireframes](#wireframes).
 
 #### Other:
-
 - [Code Institute Course Content](https://courses.codeinstitute.net/) - Primary source of learning code.
 - [ChromeDevTools](https://developers.google.com/web/tools/chrome-devtools) - Used frequently to detect any issues/bugs or layout differences.
 - [W3Schools](https://www.w3schools.com/) - used as a general resource for CSS and coding tips.
@@ -224,17 +203,94 @@ I added further enhancements by implementing further imagery, add the carousel f
 --------
 ## Testing
 
-- Forms testing: to ensure the website was functioning as it should, I tested each of the forms on different devices and browsers. This was done by clicking the send button on the Contact Us, Sign Up, Book Now and Buy !!!  modal without any text in inputs to make sure it resulted with the desired response of 'Please fill out this field'.
-- Links (Internal & External): Each of the links when clicked have been checked so that the user is directed to the desired location. To better enhance UX, I made sure each link has either a colour change or underline when hovered (with exception of the navbar brand) and included a target attribute so that a new browser window is opened. 
-- Testing across various devices: I used BrowserStack for this, in addition to feedback from my friends and peers. The devices on which the website was tested are as follows:
+### Testing user stories
+
+I have carried out a survey gathering information on the use and design of this web page among family, friends and colleagues of the course.
+And his feedback has been the following:
+
+- The information is straightforward and fulfills the purpose of the website to display and sell craft beers.
+- It is easy to use and understand how to navigate through the website.
+- The correct use of the images as well as the information to arouse the interest of potential customers to make the purchase.
+- As well as being able to establish communication between customers and the brewery by offering different ways for it.
+- The biggest compliment I could give is that it looks like a legit website!
+
+### Testing functionality
+
+#### Checking for broken links
+- agegate.html contains two buttons with link functionality to confirm or deny the age to access the web page.
+   -  both buttons work properly.
+- index.html  It contains different internal and external links as well as "Contact Us" and "Sign Us" buttons to launch the forms.
+   - internal links in the navbar, footer and in different sections of body. 
+        - They all work.
+   - social icons and external link in the footer. 
+        - They all work.
+   - two buttons with internal funcionality. Both work.
+        - "Contact Us" & "Sign Us" buttons. Both work. 
+        - Both forms to collect information from the user and the elements that integrate work as expected.
+- beer.html  In addition to containing the same elements as the index.html. we have the buy !!! button to complete the order for the purchase of beer.
+    - All components work as we expected.
+- tour.html  again all the links and common buttons that we have used in the index and beer. We have two extra elements on this page "book now" and gallery carousel.
+    - All components work as we expected.
+
+### Testing form validation
+- Common elements
+    - "Contact Us" & "Sign Us" Both work in all site. Both were tested for validation by trying to submit first with no field filled and then by filling the fields one by one.
+
+- No Common elements
+    - Buy!! work correctly follow the same steps that I made mention previously.
+    - Book now !  work properly but as follow the  actual role we can't book any tour as the Covid 19 restrictions the book button in the form is disable.
+
+### Testing Compatibility
+#### Responsiveness
+- Using DevTools and different device sizes such as mobile and tablet, the website was tested for any posible screen size combination and orientation. No issues found. Site is size compatible.
+
+#### OS test
+- Desktop
+  - The website was tested on  Kali Linux, Windows 7 and Windows 10 systems. Result as expected, desktop system-cross compatible.
+- Mobile
+  - The website was tested on Android 9, Android 10 and iOS 14 systems. Result as expected, mobile system-cross compatible.
+- Devices test
+  - The website was tested on ACER 17" notebook, Huawei P30 PRO, Huawei P20 PRO, Huawei P10, iPhone 11. The result was consistent, website is platform-cross compatible.
+- Browser test
+  - The website was tested on Google Chrome, Firefox, Edge, Safari and Internet Explorer. Browsers versions were all up to date. Further testing was done using [BrowserLing](https://www.browserling.com/) . Results were consistent. Conclusion: the website is browser-cross compatible.
+
+- Ensured the website was also responsive on all site through [Google Mobile Friendly test](https://search.google.com/test/mobile-friendly?utm_source=support.google.com/webmasters/&utm_medium=referral&utm_campaign=%206352293)
+
+- 1. **Agegate:**
+
+  ![Image](/assets/docs/ms1_3cbco_mf1.png)
+
+- 2. **Home**
+
+  ![Image](/assets/docs/ms1_3cbco_mf2.png)
+
+- 3. **Beer**
+
+  ![Image](/assets/docs/ms1_3cbco_mf3.png)
+
+- 4. **Tour**
+
+  ![Image](/assets/docs/ms1_3cbc0_mf4.png)
 
 --------
 #### Validation
 
 HTML - [W3C](https://validator.w3.org/) - Markup Validation
 
+- Error Sample ```aria-valuenow="65%"``` in progress bar element the precentage needs to removed to solve this particular issue.
+
+    ![Image](/assets/docs/ms1_3cbco_error.png)
+
+- The all test from the validator are correct
+
+    ![Image](/assets/docs/ms1_3cbco_validator.png)
+
 
 CSS - [W3C](https://jigsaw.w3.org/css-validator/) - CSS Validation
+
+- CSS vaidation was successful no errors found.
+
+    ![Image](/assets/docs/ms1_3cbco_cssvalidate.png)
 
 --------
 ## Project Bugs and Solutions
