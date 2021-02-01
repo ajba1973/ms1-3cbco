@@ -109,7 +109,16 @@ I added further enhancements by implementing further imagery, add the carousel f
   [desktop](/assets/docs/wireframes/3cbco_index_desktop.png)
 
 - Our Beers:  Our beers  offer & sale beers <!-- Balsamiq-->
+
+  [mobile](/assets/docs/wireframes/3cbco_beer_mobile.png)
+
+  [desktop](/assets/docs/wireframes/3cbco_beer_desktop.png)
+
 - Tour: Book tours & gallere from brewery <!-- Balsamiq-->
+
+  [mobile](/assets/docs/wireframes/3cbco_tour_mobile.png)
+
+  [desktop](/assets/docs/wireframes/3cbco_tour_desktop.png)
 
 --------
 ## Surface
