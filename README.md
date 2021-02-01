@@ -97,6 +97,7 @@ I added further enhancements by implementing further imagery, add the carousel f
 
 ### Wireframes
 - Legal Page:  agegate, as legal requirements to sell alcohol <!-- Balsamiq-->
+  [mobile](/assets/docs/wireframes/3cbco_agegate_mobile.png)
 - Landing Page: Home Index <!-- Balsamiq-->
 - Our Beers:  Our beers  offer & sale beers <!-- Balsamiq-->
 - Tour: Book tours & gallere from brewery <!-- Balsamiq-->
