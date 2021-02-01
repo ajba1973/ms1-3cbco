@@ -1,4 +1,4 @@
-![image](/assets/docs/3CBCo_index.png)
+![image](/assets/docs/ms1_3CBCo_index.png)
 
 # Milestone Project 1 - 3 Calaveras Brew Co.
 
