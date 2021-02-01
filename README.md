@@ -96,8 +96,10 @@ The website is divided into the four sections and although the wireframes do not
 I added further enhancements by implementing further imagery, add the carousel feature on the tour page and creating modal Contact Us!, Sign up, Buy!! and Book Now forms instead the create another pages.
 
 ### Wireframes
-- Legal Page:  agegate, as legal requirements to sell alcohol <!-- Balsamiq-->
+- Legal Page:  agegate, as legal requirements to sell alcohol  <!-- Balsamiq-->
   [mobile](/assets/docs/wireframes/3cbco_agegate_mobile.png)
+  [desktop](/assets/docs/wireframes/3cbco_agegate_desktop.png)
+
 - Landing Page: Home Index <!-- Balsamiq-->
 - Our Beers:  Our beers  offer & sale beers <!-- Balsamiq-->
 - Tour: Book tours & gallere from brewery <!-- Balsamiq-->
