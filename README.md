@@ -254,27 +254,39 @@ And his feedback has been the following:
 #### Checking for broken links
 - agegate.html contains two buttons with link functionality to confirm or deny the age to access the web page.
    -  both buttons work properly.
+
 - index.html  It contains different internal and external links as well as "Contact Us" and "Sign Us" buttons to launch the forms.
    - internal links in the navbar, footer and in different sections of body. 
         - They all work.
+
    - social icons and external link in the footer. 
         - They all work.
+
    - two buttons with internal funcionality. Both work.
         - "Contact Us" & "Sign Us" buttons. Both work. 
         - Both forms to collect information from the user and the elements that integrate work as expected.
+        - [Contact Us form](/assets/docs/3cbco_contact_form.png)
+        - [Sign up form](/assets/docs/3cbco_signup_form.png)
+
 - beer.html  In addition to containing the same elements as the index.html. we have the buy !!! button to complete the order for the purchase of beer.
     - All components work as we expected.
+        - [Buy form](/assets/docs/3cbco_buytest_form.png)
+
 - tour.html  again all the links and common buttons that we have used in the index and beer. We have two extra elements on this page "book now" and gallery carousel.
     - All components work as we expected.
+        - [Sign up form](/assets/docs/3cbco_book_form.png)
+
 
 ### Testing form validation
 - Common elements
     - "Contact Us" & "Sign Us" Both work in all site. Both were tested for validation by trying to submit first with no field filled and then by filling the fields one by one.
-
+        - [Contact test result](/assets/docs/3cbco_contactustest_form.png)
+        
 - No Common elements
     - Buy!! work correctly follow the same steps that I made mention previously.
+        - [Buy test result](/assets/docs/3cbco_buytestresult_form.png)
     - Book now !  work properly but as follow the  actual role we can't book any tour as the Covid 19 restrictions the book button in the form is disable.
-
+        
 ### Testing Compatibility
 #### Responsiveness
 - Using DevTools and different device sizes such as mobile and tablet, the website was tested for any posible screen size combination and orientation. No issues found. Site is size compatible.
