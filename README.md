@@ -150,36 +150,52 @@ I added further enhancements by implementing further imagery, add the carousel f
 ### Agegate
 - Jumbotron and a call to action (CTA) is used to comply with the legality of promoting or selling alcohol, the age of the user to access this content must be answered.
 
+    ![Image](/assets/docs/3cbco_feature_agegate.png)
+
 ### Index
 #### navbar
 - By creating a fixed top navigation bar, I wanted the user to be able to easily navigate through the website on whatever page they are on.
 - On a mobile phone or tablet, the navigation bar collapses to show the hamburger or toggle icon that expands when clicked to show the other pages.
 - The user can click on the brand on the navigation bar to take the user back to the home page.
 - Common element used in all the pages of the website.
+    - [Desktop](/assets/docs/3cbco_navbar.png)
+    - [Smart Devices](/assets/docs/3cbco_navbar_smartdevices.png)
 #### Alert banner
 - As per the Covid restrictions the brewery is closed to the public.  Offer to delivery the beers to our members that the requirement to sign up.
 - This element is used as well on tour page. To remember all user the Covid restrictions impact in the nomal business opration.
+    ![Image](/assets/docs/3cbco_alert.png)
 #### Jumbotron 
 - In this section we promote the online sale of our craft beer. For this you must be a member to be able to access the sale.
+    - [Jumbotron](/assets/docs/3cbco_jumbotron.png)
 #### Image plus text
 - A welcome section with an image and a paragraph summarizing the history of the brewery and the type of beer produced, as well as a link to access our beers. 
+
+
+    ![Image](/assets/docs/3cbco_grid_boostrap.png)
 #### About us
 - it is divided into two groups:
-* A few paragraphs that explain our business, our location and our crew. 
-* A offer to book a guided tour in the brewery with a CTA (link to  tour webpage).
+    * A few paragraphs that explain our business, our location and our crew. 
+    * A offer to book a guided tour in the brewery with a CTA (link to  tour webpage).
+     - [About us](/assets/docs/3cbco_aboutus.png)
 #### Footer
 - Common element through the website
 - The footer provides a small part about who the company is and where they are located, with relevant useful links and contact details available on each page.
 - Use of the back to top button to further enhance the user experience, social media links and contact details.
+    - [Footer](/assets/docs/3cbco_footer.png)
 
 ### Our Beers
 - Common elements of Navbar, jumbotron, a marketing section with the offer and the footer.
 - Contains 6 cards of the beers produced, three core and three seasonal with their specifications, each with buttons to order.
 - I used a deck of cards (Bootstrap) instead, as it was more visually appealing and better formatted across devices.
+    - [Card](/assets/docs/3cbco_beercard.png)
+
 ### Tour
 - Common Elements Navbar, Alert Bar, Marketing section with the specific offer for the tour and Footer.
 - It contains an animated image of the brewery and offers us to book a tour to the brewery with its corresponding CTA. From which we will fill out an application to book the tour.
 - A carousel of images of key elements of the craft brewery
+    - [Tour](/assets/docs/3cbco_booktour.png)
+    - [Carousel](/assets/docs/3cbco_gallery.png)
+
 
 ## Features Left to Implement
 - More product: I would have liked to expand the list of services such as the tap room menu as well as a downloadable menu of food and beers. As well as the takeway option for limerick city.
