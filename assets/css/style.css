@@ -189,7 +189,7 @@ body {
 .why-us-section {
     color: #05281d;
     text-align: center;
-    padding: 3rem 1.5rem;
+    padding: 3rem 0.75rem;
 }
 .your-way {
     text-align: center;
@@ -202,6 +202,11 @@ body {
 .short-bar {
     width: 50%;
     border: 1px solid #ffc107;
+}
+
+.ptext{
+    margin-left: 16px;
+    margin-right: 16px;
 }
 
 
@@ -301,10 +306,7 @@ body {
         font-size: 1rem;
         text-align: center;
    }
-    .featurette-heading {
-        font-size: 1.5rem;
-        text-align: center;
-   }
+
 }
 @media screen and (max-width: 468px) {
     .cta-button {
@@ -353,6 +355,18 @@ body {
   }
 
   @media screen and (min-width: 576px) and (max-width: 700px) {
+    .card-title {
+        text-align: center;
+        font-weight: bold;
+        font-size: small;
+    }
+
+    .card-text {
+        text-align: center;
+        font-size: small;
+        
+    }
+
     .btnbeer {
       padding: 0rem;
     }
