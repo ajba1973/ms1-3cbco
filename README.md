@@ -345,14 +345,18 @@ CSS - [W3C](https://jigsaw.w3.org/css-validator/) - CSS Validation
 ### Issues found
 
 - Navbar toggler  Shifting to the right of the nabvar once clicked 
+
     - **FIXED** by adding the following the next code to ```.navbar-toggler``` :
+
         ```
         margin: 0 auto;
         ```
         Reference [Stackover flow: bootstrap navbar toggle button moving when clicked](https://stackoverflow.com/questions/50046119/bootstrap-navbar-toggle-button-moving-left-when-clicked)
 
 - Navbar toggler centered on the Navbar on 3cbco_navbar_smartdevices
+
     - **FIXED** by  the attribute ``mr-2`` into nav bar button 
+        
         ```
         <button class="navbar-toggler mr-2" type="button" data-toggle="collapse" data-target="#navbarNav"
             aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -391,6 +395,52 @@ CSS - [W3C](https://jigsaw.w3.org/css-validator/) - CSS Validation
 - Bootstrap card issue to fit properly text & buttons in a range (576px - 700px)
 
     ![Error](/assets/docs/3cbco_error_landscape.png)   ![Dev tools](/assets/docs/3cbco_devtools1.png)
+
+    - **FIXED** by  using media queries for define the range and modify the css style:
+    - For less **576px** ```@media screen and (max-width: 576px)``` leave the default padding in our button selector
+        ```
+        @media screen and (max-width: 576px) {
+        .btnbeer {
+        padding: .375rem .75rem;
+        }
+        }
+        ```
+    - Between **576px** and **700px** I create the next media query ``` @media screen and (min-width: 576px) and (max-width: 700px)```
+        where I change the value padding:``` 0rem;``` for buton selector and  text in the card I add the attribute ```font-size:small;``` 
+ 
+        ```
+        @media screen and (min-width: 576px) and (max-width: 700px) {
+        .card-title {
+        text-align: center;
+        font-weight: bold;
+        font-size: small;
+        }
+
+        .card-text {
+        text-align: center;
+        font-size: small;
+        }
+
+        .btnbeer {
+        padding: 0rem;
+        }
+        }
+        ```
+
+    - Bigger than **700px** ```@media screen and (min-width: 700px)``` where the selector has the default value.
+        
+        ```
+        @media screen and (min-width: 700px) {
+        .btnbeer {
+        padding: .375rem .75rem;
+        }
+        }
+        ```
+
+    - Solution
+
+        ![Solution](/assets/docs/3cbco_solution.png)
+
 
 
 
