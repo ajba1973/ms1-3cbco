@@ -342,7 +342,51 @@ CSS - [W3C](https://jigsaw.w3.org/css-validator/) - CSS Validation
 --------
 ## Project Bugs and Solutions
 
+### Issues found
 
+- Navbar toggler  Shifting to the right of the nabvar once clicked 
+    - **FIXED** by adding the following the next code to ```.navbar-toggler``` :
+        ```
+        margin: 0 auto;
+        ```
+        Reference [Stackover flow: bootstrap navbar toggle button moving when clicked](https://stackoverflow.com/questions/50046119/bootstrap-navbar-toggle-button-moving-left-when-clicked)
+
+- Navbar toggler centered on the Navbar on 3cbco_navbar_smartdevices
+    - **FIXED** by  the attribute ``mr-2`` into nav bar button 
+        ```
+        <button class="navbar-toggler mr-2" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        ```
+
+- Bootstrap row class contains margin-left and margin-right which creates problems
+
+
+     ![Error](/assets/docs/3cbco_error_row.png) ![Dev tools](/assets/docs/3cbco_devtools.png)
+
+    - **FIXED** by  the attribute ``ml-3`` & ``mr-3`` into container for override the default values of margin-left and margin-right 
+        ```
+         <section class="welcome mt-1 ml-3 mr-3  "> <!-- Add  margin attributes to override the row issue-->
+        <!--Grid row-->
+        <div class="row  mt-5"> <!--here it is the issue -->
+            <!--Grid column-->
+            <div class="col-md-7 mb-4">
+                <div class="view overlay z-depth-1-half">
+                    <img src="assets/images/brewery.jpg" class="card-img-top" alt="brewery">
+                    <div class="mask rgba-white-light"></div>
+                </div>
+            </div>
+            <!--Grid column-->
+            <!--Grid column-->
+            <div class="col-md-5 mb-4 ">
+                <div class="row  justify-content-center"> <-- Here it is the issue
+                    <h2>Welcome to 3CBCo <img src="assets/images/calavera.png" width="40" height="40"
+                            class="d-inline-block align-top" alt="calavera" /></h2>
+                </div>
+                <div class="row  ml-3 mr-3 justify-content-center">
+        ```
+         Reference [Stackover flow: Bootstrap row class contains margin-left and margin-right which creates problems](https://stackoverflow.com/questions/23153497/bootstrap-row-class-contains-margin-left-and-margin-right-which-creates-problems)
+         
+         Reference [w3schools: Bootsrap 4 Utilities Spacing](https://www.w3schools.com/bootstrap4/bootstrap_utilities.asp)
 --------
 ## Deployment
 
