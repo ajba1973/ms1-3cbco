@@ -387,6 +387,14 @@ CSS - [W3C](https://jigsaw.w3.org/css-validator/) - CSS Validation
          Reference [Stackover flow: Bootstrap row class contains margin-left and margin-right which creates problems](https://stackoverflow.com/questions/23153497/bootstrap-row-class-contains-margin-left-and-margin-right-which-creates-problems)
          
          Reference [w3schools: Bootsrap 4 Utilities Spacing](https://www.w3schools.com/bootstrap4/bootstrap_utilities.asp)
+
+- Bootstrap card issue to fit properly text & buttons in a range (576px - 700px)
+
+    ![Error](/assets/docs/3cbco_error_landscape.png)   ![Dev tools](/assets/docs/3cbco_devtools1.png)
+
+
+
+
 --------
 ## Deployment
 
