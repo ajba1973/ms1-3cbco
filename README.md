@@ -274,14 +274,14 @@ And his feedback has been the following:
 
 - tour.html  again all the links and common buttons that we have used in the index and beer. We have two extra elements on this page "book now" and gallery carousel.
     - All components work as we expected.
-        - [Sign up form](/assets/docs/3cbco_book_form.png)
+        - [Book Tour form](/assets/docs/3cbco_book_form.png)
 
 
 ### Testing form validation
 - Common elements
     - "Contact Us" & "Sign Us" Both work in all site. Both were tested for validation by trying to submit first with no field filled and then by filling the fields one by one.
         - [Contact test result](/assets/docs/3cbco_contactustest_form.png)
-        
+
 - No Common elements
     - Buy!! work correctly follow the same steps that I made mention previously.
         - [Buy test result](/assets/docs/3cbco_buytestresult_form.png)
